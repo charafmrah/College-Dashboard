@@ -1,4 +1,4 @@
-package com.pangolin.collegeessentials
+package com.pangolin.collegedashboard
 
 import org.junit.Test
 

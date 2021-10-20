@@ -1,4 +1,4 @@
-package com.pangolin.collegeessentials.ui.home
+package com.pangolin.collegedashboard.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
