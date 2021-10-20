@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.pangolin.collegedashboard.ui.gallery.GalleryFragment"
+        android:name="com.pangolin.collegedashboard.ui.todo.ToDoFragment"
         android:label="@string/menu_gpa_calculator"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.pangolin.collegedashboard.ui.slideshow.SlideshowFragment"
+        android:name="com.pangolin.collegedashboard.ui.examcountdown.ExamCountdownFragment"
         android:label="@string/menu_todo_list"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

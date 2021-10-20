@@ -1,4 +1,4 @@
-package com.pangolin.collegedashboard.ui.gallery
+package com.pangolin.collegedashboard.ui.todo
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.pangolin.collegedashboard.databinding.FragmentGalleryBinding
 
-class GalleryFragment : Fragment() {
+class ToDoFragment : Fragment() {
 
-    private lateinit var galleryViewModel: GalleryViewModel
+    private lateinit var toDoViewModel: ToDoViewModel
     private var _binding: FragmentGalleryBinding? = null
 
     // This property is only valid between onCreateView and
@@ -24,14 +24,14 @@ class GalleryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+        toDoViewModel =
+            ViewModelProvider(this).get(ToDoViewModel::class.java)
 
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textGallery
-        galleryViewModel.text.observe(viewLifecycleOwner, Observer {
+        toDoViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
