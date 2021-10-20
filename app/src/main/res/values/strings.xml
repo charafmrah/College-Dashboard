@@ -10,4 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="gpa_calculator">GPA Calculator</string>
+    <string name="menu_gpa_calculator">GPA Calculator</string>
+    <string name="menu_todo_list">To-Do List</string>
 </resources>
