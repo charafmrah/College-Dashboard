@@ -6,15 +6,31 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_gpa_calculcator"
+            android:icon="@drawable/ic_menu_calculator"
+            android:title="@string/menu_gpa_calculator" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_note_add"
+            android:title="@string/menu_notes" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_menu_check"
+            android:title="@string/menu_todo_list" />
+        <item
+            android:id="@+id/nav_classes_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="@string/menu_classes_schedule" />
+        <item
+            android:id="@+id/nav_exam_countdown"
+            android:icon="@drawable/ic_menu_event"
+            android:title="@string/menu_exam_countdown" />
+        <item
+            android:id="@+id/nav_pomodoro"
+            android:icon="@drawable/ic_menu_timer"
+            android:title="@string/menu_pomodoro_timer" />
     </group>
 </menu>

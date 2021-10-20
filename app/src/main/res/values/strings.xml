@@ -13,4 +13,8 @@
     <string name="gpa_calculator">GPA Calculator</string>
     <string name="menu_gpa_calculator">GPA Calculator</string>
     <string name="menu_todo_list">To-Do List</string>
+    <string name="menu_classes_schedule">Classes Schedule</string>
+    <string name="menu_exam_countdown">Exam Countdown</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_pomodoro_timer">Pomodoro Timer</string>
 </resources>

@@ -5,9 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.18697916666666667" />
         <entry key="app/src/main/res/drawable/ic_menu_event.xml" value="0.18697916666666667" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1953125" />
+        <entry key="app/src/main/res/drawable/ic_menu_schedule.xml" value="0.1953125" />
+        <entry key="app/src/main/res/drawable/ic_menu_timer.xml" value="0.1953125" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/fragment_classes_schedule.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_exam_countdown.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/fragment_gpa_calculator.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.17083333333333334" />

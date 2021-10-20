@@ -1,4 +1,4 @@
-package com.pangolin.collegedashboard.ui.todo
+package com.pangolin.collegedashboard.ui.examcountdown
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,12 +8,13 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.pangolin.collegedashboard.databinding.FragmentTodoBinding
+import com.pangolin.collegedashboard.databinding.FragmentNotesBinding
+import com.pangolin.collegedashboard.ui.notes.NotesViewModel
 
-class ToDoFragment : Fragment() {
+class NotesFragment : Fragment() {
 
-    private lateinit var toDoViewModel: ToDoViewModel
-    private var _binding: FragmentTodoBinding? = null
+    private lateinit var notesViewModel: NotesViewModel
+    private var _binding: FragmentNotesBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,11 +25,12 @@ class ToDoFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        toDoViewModel =
-            ViewModelProvider(this).get(ToDoViewModel::class.java)
+        notesViewModel =
+            ViewModelProvider(this).get(NotesViewModel::class.java)
 
-        _binding = FragmentTodoBinding.inflate(inflater, container, false)
+        _binding = FragmentNotesBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
 
         return root
     }

@@ -12,14 +12,34 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_exam_countdown"
         android:name="com.pangolin.collegedashboard.ui.todo.ToDoFragment"
-        android:label="@string/menu_gpa_calculator"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_exam_countdown"
+        tools:layout="@layout/fragment_exam_countdown" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_todo"
         android:name="com.pangolin.collegedashboard.ui.examcountdown.ExamCountdownFragment"
         android:label="@string/menu_todo_list"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_todo" />
+    <fragment
+        android:id="@+id/nav_classes_schedule"
+        android:name="com.pangolin.collegedashboard.ui.classesschedule.ClassScheduleFragment"
+        android:label="@string/menu_classes_schedule"
+        tools:layout="@layout/fragment_classes_schedule" />
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.pangolin.collegedashboard.ui.examcountdown.NotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/nav_pomodoro"
+        android:name="com.pangolin.collegedashboard.ui.examcountdown.PomodoroFragment"
+        android:label="@string/menu_pomodoro_timer"
+        tools:layout="@layout/fragment_pomodoro" />
+    <fragment
+        android:id="@+id/nav_gpa_calculcator"
+        android:name="com.pangolin.collegedashboard.ui.examcountdown.GpaCalculatorFragment"
+        android:label="@string/menu_gpa_calculator"
+        tools:layout="@layout/fragment_gpa_calculator" />
 </navigation>
