@@ -1,2 +1,2 @@
 # College Dashboard (Android App)
-Different tools college students might use combined in one app.
+Tools to make college students life a little bit easier.
