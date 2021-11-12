@@ -14,9 +14,14 @@
         <entry key="app/src/main/res/layout/fragment_classes_schedule.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/fragment_exam_countdown.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/fragment_gpa_calculator.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/fragment_gpa_calculator_add_course.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/fragment_gpa_calculator_course_detail.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/fragment_gpa_calculator_course_list.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/fragment_notes.xml" value="0.17083333333333334" />
         <entry key="app/src/main/res/layout/fragment_pomodoro.xml" value="0.17083333333333334" />
+        <entry key="app/src/main/res/layout/gpa_calculator_add_list_item.xml" value="0.1578125" />
+        <entry key="app/src/main/res/layout/gpa_calculator_course_list_item.xml" value="0.1578125" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/menu/main.xml" value="0.17916666666666667" />
       </map>

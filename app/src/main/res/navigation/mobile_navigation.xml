@@ -41,5 +41,5 @@
         android:id="@+id/nav_gpa_calculcator"
         android:name="com.pangolin.collegedashboard.ui.examcountdown.GpaCalculatorFragment"
         android:label="@string/menu_gpa_calculator"
-        tools:layout="@layout/fragment_gpa_calculator" />
+        tools:layout="@layout/fragment_gpa_calculator_course_detail" />
 </navigation>
