@@ -1,2 +1,2 @@
-# College Essentials (Android App)
-Different tools college students might use combined in one app.
+# College Dashboard (Android App)
+Tools to make college students life a little bit easier.
