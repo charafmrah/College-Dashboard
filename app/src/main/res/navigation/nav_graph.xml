@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2021 The Android Open Source Project.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/courseListFragment">
+
+    <fragment
+        android:id="@+id/courseListFragment"
+        android:name="com.pangolin.collegedashboard.ui.gpacalculator.CourseListFragment"
+        android:label="GPA Calculator"
+        tools:layout="@layout/fragment_gpa_calculator_course_list" >
+        <action
+            android:id="@+id/action_courseListFragment_to_addCourseFragment"
+            app:destination="@id/addCourseFragment" />
+        <action
+            android:id="@+id/action_courseListFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.pangolin.collegedashboard.ui.gpacalculator.CourseDetailFragment"
+        android:label="Course Detail"
+        tools:layout="@layout/fragment_gpa_calculator_course_detail" >
+        <argument
+            android:name="course_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_courseDetailFragment_to_addCourseFragment"
+            app:destination="@id/addCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCourseFragment"
+        android:name="com.pangolin.collegedashboard.ui.gpacalculator.AddCourseFragment"
+        android:label="Add New Course"
+        tools:layout="@layout/fragment_gpa_calculator_add_course" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="course_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_addCourseFragment_to_courseListFragment"
+            app:destination="@id/courseListFragment"
+            app:popUpTo="@id/courseListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

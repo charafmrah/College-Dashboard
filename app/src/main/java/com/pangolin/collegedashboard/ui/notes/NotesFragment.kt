@@ -1,4 +1,4 @@
-package com.pangolin.collegedashboard.ui.examcountdown
+package com.pangolin.collegedashboard.ui.notes
 
 import android.os.Bundle
 import android.view.LayoutInflater

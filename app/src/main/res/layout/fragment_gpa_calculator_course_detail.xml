@@ -21,7 +21,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/margin"
-    tools:context=".fragments.CourseDetailFragment">
+    tools:context=".ui.gpacalculator.CourseDetailFragment">
 
     <TextView
         android:id="@+id/course_name"
